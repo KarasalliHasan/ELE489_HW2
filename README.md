@@ -4,7 +4,7 @@
 
 Applies a Decision Tree Classifier to the **Banknote Authentication Dataset** to distinguish between real and fake banknotes.
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used is the UCI Banknote Authentication dataset. It includes the following features:
 
@@ -28,7 +28,7 @@ The dataset used is the UCI Banknote Authentication dataset. It includes the fol
   - Feature importance plot
   - Tree structure with `plot_tree()`
 
-## 🧪 Results
+##  Results
 
 - Achieved accuracy ranging between **94%–98%** depending on parameter tuning.
 - Feature importance analysis showed that **variance** is the most influential features.
