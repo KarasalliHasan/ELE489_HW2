@@ -22,8 +22,9 @@ The dataset used is the UCI Banknote Authentication dataset. It includes the fol
   - Splitting into training and testing sets
 - **Modeling**
   - Training with `DecisionTreeClassifier` using various parameters
-  - Evaluating with accuracy score, classification report, and confusion matrix
+  - Evaluating with accuracy score, classification report
 - **Visualization**
+  - Confusion matrix 
   - Feature importance plot
   - Tree structure with `plot_tree()`
 
@@ -33,14 +34,12 @@ The dataset used is the UCI Banknote Authentication dataset. It includes the fol
 - Feature importance analysis showed that **variance** is the most influential features.
 
 
-
-
 ##  Tools & Libraries
 
 - Python 3.x
 - pandas
 - matplotlib
-- seaborn
+- numpy
 - scikit-learn
 - Banknote Authentication Dataset from https://archive.ics.uci.edu/dataset/267/banknote+authentication
 
